@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+
+    /* background: url("img/bg.jpg");*/
+    text-align: center;
+}
+
+@font-face {
+    src: url('gotham/GothamBold.ttf') format("truetype");
+    font-family: 'GothamBold';
+}
+
+@font-face {
+    src: url('gotham/GothamBook.ttf') format("truetype");
+    font-family: 'GothamBook';
+}
+
+@font-face {
+    src: url('gotham/GothamMedium_1.ttf') format("truetype");
+    font-family: 'GothamMedium';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+i {
+    display: inline-block;
+    font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+img {
+    margin: 0;
+    display: inline-block;
+}
+
+img.line {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'GothamBold';
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    padding-top: 40px;
+    color: #ffffff;
+    font-family: 'GothamBook';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-family: 'GothamBold';
+    color: #2c4058;
+    font-size: 44px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+h4 {
+    color: #2c4058;
+    font-family: 'GothamBold';
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+h5 {
+    color: #2c4058;
+    font-family: "GothamBook";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #4b5562;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: inherit;
+    outline: none;
+    border: 1px solid #000;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    color: #2c4058;
+    font-family: "GothamBook";
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+input:hover,
+input:focus {
+    opacity: 1;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 20px rgba(213, 213, 220, 0.5);
+}
+
+header .col {
+	background-color: #55a2f2;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.static {
+	width: 1170px;
+	height: 130px;
+    text-transform: uppercase;
+    padding: 0px 15%;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+}
+
+header ul {
+    width: 470px;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+header .static li {
+    list-style-type: none;
+    display: inline-block; 
+    border-bottom: 2px solid rgba(255, 255, 255,0);
+}
+
+header .static li:hover,
+header .static li.active {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+header {
+    width: 100%;
+    padding-top: 160px;
+    background: url('img/bg1.jpg') no-repeat;
+    background-size: cover;
+}
+
+header .wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+section .wrapper {
+    padding: 140px 0;
+}
+
+header nav,
+header ul,
+.social,
+.social-el {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    width: 160px;
+}
+
+.social-el {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+}
+
+.social-el:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+header h1 {
+    padding-top: 240px;
+}
+
+header a.go {
+    padding-top: 230px;
+    opacity: 0.6;
+}
+
+header a.go:hover {
+    padding-top: 230px;
+    opacity: 1;
+}
+
+section.first img .line {
+    padding-top: 50px;
+}
+
+section.first .box {
+    width: 100%;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.first .boxIn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section.first .boxIn1,
+section.first .boxIn2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.first .boxIn1 img,
+section.first .boxIn2 img {
+    width: calc(50% - 5px);
+}
+
+section.first button {
+    width: 190px;
+    height: 50px;
+}
+
+section.second {
+    width: 100%;
+    background: url('img/bg2.jpg') no-repeat;
+    background-size: cover;
+}
+
+section.second .wrapper {
+    width: 1370px;
+}
+
+section.second h3 {
+    color: #fff;
+}
+
+section.second .slide-item {
+    width: 350px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    margin: 0 15px;
+}
+
+section.second .slide-item img.up {
+    width: 100%;
+}
+
+section.second .item-body {
+    width: 320px;
+    margin: 0 auto;
+}
+
+section.second .item-down {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+section.second button {
+    text-indent: -9999em;
+    color: #fff;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 9;
+    outline: none;
+    top: -16%;
+    opacity: 0.6;
+}
+
+section.second .down-text {
+    padding-left: 22px;
+}
+
+section.second .down-text p {
+    color: #55b7ff;
+    font-family: "GothamBook";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section.second button:hover {
+    box-shadow: none;
+    opacity: 1;
+}
+
+section.second button.slick-prev {
+    left: -50px;
+}
+
+section.second button.slick-next {
+    right: -50px;
+}
+
+section.second button.slick-arrow::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    font-size: 20px;
+    text-indent: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+section.second button.slick-prev::after {
+    content: '<';
+}
+
+section.second button.slick-next::after {
+    content: '>';
+}
+
+section.second .slider-container li {
+    display: inline-block;
+    margin: 30px 20px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    list-style-type: disc;
+}
+
+section.second .slider-container li.slick-active,
+section.second .slider-container li:hover {
+    background: #fff;
+}
+
+section.second .slider-container li::after {
+    content: none;
+}
+
+section.second .slider-container ul {
+    margin: 0;
+    padding-top: 60px;
+}
+
+section.third #map {
+    width: 100%;
+    height: 700px;
+}
+
+footer {
+    background: url("img/bg3.jpg") no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+footer .wrapper {
+    position: relative;
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .wrapper p.devinfo {
+    color: #fff;
+    font-family: "GothamBook";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 45px;
+    float: left;
+}
+
+footer .footer-bar {
+    width: 115%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-box {
+    position: absolute;
+    margin: 0 auto;
+    padding: 60px;
+    width: 100%;
+    background: url("img/bg4.jpg") no-repeat;
+    background-size: cover;
+    top: -500px;
+}
+
+footer .footer-box h3 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+footer .footer-form {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-text,
+footer .footer-log {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .footer-text {
+    text-align: left;
+}
+
+footer .footer-text i {
+    color: #7e5aff;
+    padding-right: 10px;
+}
+
+footer .footer-log input {
+    width: 310px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+footer .footer-log button {
+    width: 140px;
+    height: 50px;
+    float: right;
+    align-self: flex-end;
+}
+
